@@ -4,8 +4,8 @@ import VotePanel from './VotePanel';
 
 test('should display the props', () => {
   render(<VotePanel votes={120} question="test" />);
-  const votesElement = screen.getByText(/120 votes/i);
-  const questionElement = screen.getByText(/test/i);
+  const votesElement = screen.getByText(/120 votghges/i);
+  const questionElement = screen.getByText(/testghgh/i);
   expect(votesElement).toBeInTheDocument();
   expect(questionElement).toBeInTheDocument();
 });

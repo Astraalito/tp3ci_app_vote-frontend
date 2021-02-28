@@ -2,6 +2,9 @@
   "name": "tp3ci_app_front",
   "version": "0.1.0",
   "private": true,
+  "jest": {
+	  "testMatch": ["**/?(*.)+(test).[jt]s?(x)"]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
